@@ -4,9 +4,9 @@
 
 var num1 = 1;
 var num2 = 2;
-var total = 0;
+var total = num2;
 
-for (i=0; num2 < 3524578; i++ ) { // fix
+for (i=0; num2 < 4000000; i++ ) { // fix
 
   var temp = num1;
   num1 = num2;
@@ -19,4 +19,4 @@ for (i=0; num2 < 3524578; i++ ) { // fix
   
 }
 
-console.log(total); // fix ( + starting 2)
+console.log(total);
