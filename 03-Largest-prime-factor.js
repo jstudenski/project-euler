@@ -30,7 +30,6 @@ function primeFactor(x) {
 function nextPrime(){
   for(var i = prime+1; i < 999999999999; i++) { // fix!!
     if (isPrime(i)) {
-      // console.log("is prime " + i);
       prime = i;
       return;
     }
