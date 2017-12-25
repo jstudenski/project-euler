@@ -11,38 +11,20 @@ var b = 2;
 var c = 3;
 
 
-
-
-while (b < c) {
-  console.log(a);
-  console.log(b);
-  console.log(c);
-  console.log("----------");
-
-  // text += "The number is " + i;
-  // i++;
+for (var i = 1; i < 333; i++){
+  while (b < c) {
+    a;
+    b++;
+    c=(1000-b-a);
+    isTriplet(a, b, c);
+  }
+  a++
+  b=a+1
 }
 
 
-
-// for (i = 1; i < 999; i++) {
-
-
-//   b++;
-//   c = (1000-a-b);
-
-//   console.log(a);
-//   console.log(b);
-//   console.log(c);
-
-// }
-
-
-// isTriplet(3, 4, 5);
-
 function isTriplet(a, b, c) {
   if (a*a+b*b===c*c){
-    console.log("true!");
+    console.log("Solution: " + a*b*c);
   }
-
 }
